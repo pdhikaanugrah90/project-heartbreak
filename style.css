@@ -39,7 +39,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     z-index: 999;
-    font-size: 0.85;
+    font-size: 0.85rem;
     text-align: left;
 }
 
