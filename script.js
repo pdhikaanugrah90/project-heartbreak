@@ -82,7 +82,7 @@ window.addEventListener('scroll', () => {
         updateContent("We were building something beautiful...", "Weren't we?", "#ffe0e9", "#c08090");
     } else if (scrollPoint < 0.35) {
         audio.playbackRate = 0.9;
-        audio.volume = 0.95
+        audio.volume = 0.95;
         updateContent("The logic was clear...", "But the data doesn't match.", "#e0d5d8", "#888");
     } else if (scrollPoint < 0.45) {
         audio.playbackRate = 0.8;
@@ -98,12 +98,12 @@ window.addEventListener('scroll', () => {
         updateContent(mainText.innerText, "Just a shadow in your crowd.", "#444", "#ccc");
         if (navigator.vibrate) navigator.vibrate(20);
     } else if (scrollPoint < 0.75) {
-        audio.playbackRate = 0.65;
-        audio.volume = 0.8
+        audio.playbackRate = 0.7;
+        audio.volume = 0.85;
         handleOverthinking();
         updateContent("Rewriting every thought... 'Overthinking'", subText.innerText, "#222", "#888");
     } else if (scrollPoint < 0.9) {
-        audio.playbackRate = 0.6;
+        audio.playbackRate = 0.7;
         audio.volume = 1.0;
         body.style.backgroundColor = "#1a0000"; 
         mainText.classList.add('glitch-priority');
@@ -111,8 +111,8 @@ window.addEventListener('scroll', () => {
         updateContent(mainText.innerText, "Checking heart's availability...", "#1a0000", "white");
         if (navigator.vibrate) navigator.vibrate(50);
     } else if (scrollPoint < 0.99) {
-        audio.playbackRate = 0.35;
-        audio.volume = 1.2;
+        audio.playbackRate = 0.65;
+        audio.volume = 1.0;
         body.style.backgroundColor = "black";
         mainText.style.color = "#0f0";
         mainText.classList.add('garbage-shake');
